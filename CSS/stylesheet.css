@@ -1,0 +1,57 @@
+body {
+    background-image: url("https://everydayrecycler.com/wp-content/uploads/2020/09/Old-Shoes.jpg");
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-attachment: fixed
+  }
+  
+  
+  section {
+    background-color: #DBDBDB;
+    float: left;
+    width: 40%;
+    border-radius: 20px;
+    margin: 20px;
+  }
+  
+  h3 {
+    font-size: 30pt;
+    color: #D35269;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  
+  h4, p {
+    color: #00171F;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 15pt;
+  }
+  
+  aside {
+    float: right;
+    text-align: center;
+    width: 39%;
+    font-size: 40pt;
+    background-color: #D35269;
+    color: #DBDBDB;
+    margin: 90px 50px;
+    border-radius: 20px;
+  }
+  
+  footer {
+    background-color: #DBDBDB;
+    opacity: 0.6;
+    border-radius: 20px;
+    text-align: center;
+    width: 15%;
+    margin-left: 40%;
+  }
+  
+  footer:hover {
+    opacity: 1.0;
+  }
